@@ -1,0 +1,27 @@
+/* Estilos para o menu de navegação */
+nav {
+    background-color: #392bfa; /* Cor de fundo do menu */
+}
+
+nav ul {
+    list-style-type: none; /* Remover marcadores de lista */
+    padding: 0;
+    text-align: center; /* Centralizar itens */
+}
+
+nav ul li {
+    display: inline; /* Exibir itens horizontalmente */
+}
+
+nav ul li a {
+    font-family: 'Inter', sans-serif; /* Fonte do texto */
+    font-size: 1.2em; /* Tamanho do texto */
+    display: block; /* Transformar os links em blocos */
+    padding: 1em; /* Espaçamento interno */
+    text-decoration: none; /* Remover sublinhado dos links */
+    color: #fff; /* Cor do texto */
+}
+
+nav ul li a:hover {
+    background-color: #5b8be4; /* Cor de fundo ao passar o mouse */
+}

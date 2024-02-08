@@ -1,0 +1,16 @@
+<div class="container">
+    <h2 *ngIf="canShow">
+        Texto dinámico quando a condição é verdadeira
+    </h2>
+    <h2 *ngIf="!canShow">
+        Texto dinámico quando a condição é falsa
+    </h2>
+    <ng-template [ngIf]="canShow">
+        <h2>
+            Texto dinámico quando a condição é verdadeira
+        </h2>
+    </ng-template>
+    <button (click)="canShow = !canShow">Trocar</button>
+
+
+</div>

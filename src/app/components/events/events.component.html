@@ -1,0 +1,6 @@
+<div class="container">
+    <p *ngIf="show">Exibindo a mensagem!</p>
+    <button (click)="show = !show">Clique para {{ show ? 'esconder' : 'exibir' }} a mensagem</button>
+    <!-- Botaão que chama a funcao showmessage -->
+    <button (click)="showMessages()">Mostrar mensagem</button>
+</div>

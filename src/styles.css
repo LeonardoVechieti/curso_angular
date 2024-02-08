@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 25px;
+    min-height: 100px;
+    border-bottom: 1px solid #000000;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #445fd8;
+    color: #ffffff;
+    cursor: pointer;
+    margin-right: 25px;
+}
